@@ -95,7 +95,7 @@ fun LoginScreen(navController: NavController){
             trailingIcon = {
                 IconButton(
                     onClick = {
-                        isPassVisible != isPassVisible
+                        isPassVisible = !isPassVisible
                     }
                 ) {
                     Icon(
